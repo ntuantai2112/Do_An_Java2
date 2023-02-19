@@ -20,7 +20,7 @@ public class MapDemo {
         // thêm đối tượng vào trong map
         // key là tuấn ,value là đối tượng student Tuấn 
         map.put(sv.getName(), sv);
-        map.put("nam", new Student("nam", 8, "Tự động hóa"));
+        map.put("nam", new Student("nam", 8, "Tự động hóa!"));
         
         // Lấy phần tử trong map sd hàm get() truyền vào key 
         // Lấy hết tất cả các key trong map ta sd hàm keySet(), hàm keySet() trả về 1 tập các key trong map  
